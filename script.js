@@ -19,9 +19,9 @@
         eyeicon.onclick = function(){
             if(password.type == 'password'){
                 password.type = 'text';
-                eyeicon.src = 'assets/eye-open.png';
+                eyeicon.src = 'eye-open.png';
             }else{
                 password.type = 'password';
-                eyeicon.src= 'assets/eye-hide.png'
+                eyeicon.src= 'eye-hide.png'
             }
         }
